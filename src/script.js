@@ -9,6 +9,10 @@ import CANNON from "cannon";
 const world = new CANNON.World()
 const defaultMaterial = new CANNON.Material("default");
 
+// world performance optimization
+world.broadphase = new CANNON.SAPBroadphase(world)
+world.allowSleep = true
+
 // value of the Earth's gravity
 const earth_gravity = 9.82;
 world.gravity.set(0, -earth_gravity, 0);
