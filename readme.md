@@ -1,4 +1,11 @@
-# Three.js Journey
+# About 
+Based on Three.js Journey
+Created to experiment with basic physics within 3js.
+
+## Links
+
+- [GitHub](https://github.com/Andriotis-Dimitris/Physics-in-Three.js)
+- [Live](https://physics-in-three-js.vercel.app/)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
